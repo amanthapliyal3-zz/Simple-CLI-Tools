@@ -1,4 +1,9 @@
 #Script to create a new file with only unique elements
+#File Takes two main arguments: 
+#The file from which the dictionary of words would be created,
+#The file from which we will match words against the dictionary we created.
+
+#Finally the name of the output can also be given (By default it is: unique.txt)
 
 import argparse
 result = "unique.txt"
